@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         String serviceQuality = quaSerEdTxt.getText().toString();
 
         double totalCost = billCost * (1 + (perTipped*.01));
-
+        double coconut = 69.420;
         String dollarFormat = ("$0000.00");
         DecimalFormat tipFormat = new DecimalFormat(dollarFormat);
         String dollarCost = tipFormat.format(totalCost);
