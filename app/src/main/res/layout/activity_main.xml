@@ -13,8 +13,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Cost of bill"
-        android:layout_gravity="center_horizontal" ravity="center"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
         android:textColor="@color/colorInputText"
+        android:textColorHint="@color/colorHntText"
         android:inputType="numberDecimal"
          />
 
@@ -24,7 +26,9 @@
         android:layout_height="wrap_content"
         android:hint="Review of staff service"
         android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
         android:textColor="@color/colorInputText"
+        android:textColorHint="@color/colorHntText"
         />
 
     <EditText
@@ -33,7 +37,9 @@
         android:layout_height="wrap_content"
         android:hint="Enter Tip Percentage(Ex:20(%), 15(%), etc.)"
         android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
         android:textColor="@color/colorInputText"
+        android:textColorHint="@color/colorHntText"
         android:inputType="number"
 
         />
