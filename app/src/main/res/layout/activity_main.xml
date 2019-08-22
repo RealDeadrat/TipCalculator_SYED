@@ -10,38 +10,38 @@
 
     <EditText
         android:id="@+id/billCostEdTxt"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Cost of bill"
-        android:gravity="center"
+        android:layout_gravity="center_horizontal" ravity="center"
         android:textColor="@color/colorInputText"
         android:inputType="numberDecimal"
          />
 
     <EditText
         android:id="@+id/quaSerEdTxt"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Review of staff service"
-        android:gravity="center"
+        android:layout_gravity="center_horizontal"
         android:textColor="@color/colorInputText"
         />
 
     <EditText
         android:id="@+id/tipPerEdTxt"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter Tip Percentage(Ex:20(%), 15(%), etc.)"
-        android:gravity="center"
+        android:layout_gravity="center_horizontal"
         android:textColor="@color/colorInputText"
         android:inputType="number"
 
         />
     <Button
         android:id="@+id/billCalcButton"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_gravity="center_horizontal"
         android:text="Calculate Tip"
         android:textColor="@color/colorBtnText"
         android:onClick="calcTip"
