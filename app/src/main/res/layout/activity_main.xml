@@ -35,7 +35,7 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
         android:hint="Enter Tip Percentage(Ex:20(%), 15(%), etc.)"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:textColor="@color/colorInputText"
         android:textColorHint="@color/colorHntText"
 
