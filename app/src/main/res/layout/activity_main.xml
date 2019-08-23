@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -12,52 +11,51 @@
         android:id="@+id/billCostEdTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Cost of bill"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:textColor="@color/colorInputText"
-        android:textColorHint="@color/colorHntText"
+        android:hint="Cost of bill"
         android:inputType="numberDecimal"
-         />
+        android:textColor="@color/colorInputText"
+        android:textColorHint="@color/colorHntText" />
 
     <EditText
         android:id="@+id/quaSerEdTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Review of staff service"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
+        android:hint="Review of staff service"
         android:textColor="@color/colorInputText"
-        android:textColorHint="@color/colorHntText"
-        />
+        android:textColorHint="@color/colorHntText" />
 
     <EditText
         android:id="@+id/tipPerEdTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter Tip Percentage(Ex:20(%), 15(%), etc.)"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
+        android:hint="Enter Tip Percentage(Ex:20(%), 15(%), etc.)"
+        android:inputType="number"
         android:textColor="@color/colorInputText"
         android:textColorHint="@color/colorHntText"
-        android:inputType="number"
 
         />
+
     <Button
         android:id="@+id/billCalcButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:onClick="calcTip"
         android:text="Calculate Tip"
         android:textColor="@color/colorBtnText"
-        android:onClick="calcTip"
-         />
+        />
 
     <TextView
         android:id="@+id/tipTxtView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="@color/colorRtnText"/>
+        android:textColor="@color/colorRtnText" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
