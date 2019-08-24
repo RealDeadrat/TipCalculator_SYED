@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A467D58C"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -43,13 +44,14 @@
 
     <Button
         android:id="@+id/billCalcButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
         android:layout_gravity="center_horizontal"
+        android:background="@drawable/circle"
         android:onClick="calcTip"
         android:text="Calculate Tip"
         android:textColor="@color/colorBtnText"
-        />
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/tipTxtView"
